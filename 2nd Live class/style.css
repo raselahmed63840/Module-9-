@@ -1,0 +1,11 @@
+.main-section{
+    margin: 20px auto;
+    width: 50vw;
+    padding: 20px;
+
+}
+.title{
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+}

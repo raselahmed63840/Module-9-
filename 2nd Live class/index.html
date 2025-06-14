@@ -5,9 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Task Manager </title>
 </head>
 <body>
-    
+    <h1>hello</h1>
+    <Main class="main-section">
+        <h2>Task Manager</h2>
+        <form id="task-form">
+            <input type="text" id="task-input" placeholder="Enter a new task" required>
+            <button type="submit">Add Task</button>
+        </form>
+
+        <main class="main-section">
+            <h1 class="title">Task manager</h1>
+            <section>
+                <h3>AddTask</h3>
+                <form id="new-task-form">
+                    <input type="text" id="task-title" placeholder="Enter a new task" required>
+                    <button type="submit">Add</button>
+                </form>
+            </section>
+            <section>
+                <h3>Task List</h3>
+                <ul id="task-list">
+                    <!-- Task items will be added here dynamically -->
+                </ul>
+            </section>
+            <section>
+                <h3>Completed Tasks</h3>
+                <ul id="completed-tasks">
+                    <!-- Completed tasks will be added here dynamically -->
+                </ul>
+        </main>
+        
+    </Main>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
 </body>
 </html>

@@ -1,17 +1,13 @@
-.main-section{
-    margin: 20px auto;
-    width: 50vw;
-    padding: 20px;
-
+.title {
+  text-align: center;
 }
-.title{
-    font-size: 2em;
-    color: #333;
-    text-align: center;
+.main-section {
+  margin: 20px auto;
+  width: 60vw;
 }
-.single-task{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
 
+.single-task {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }

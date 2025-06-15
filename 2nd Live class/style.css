@@ -9,3 +9,9 @@
     color: #333;
     text-align: center;
 }
+.single-task{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
